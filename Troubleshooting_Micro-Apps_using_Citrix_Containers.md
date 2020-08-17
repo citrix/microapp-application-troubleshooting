@@ -2,26 +2,26 @@
 
 Architecture flexibility, so you can move to Cloud Native at your own pace.
 
-![architecture-graph](architecture-graph.png)
+![architecture-graph](https://user-images.githubusercontent.com/69601938/90446906-3669f100-e0b0-11ea-9305-181b0008ac55.png)
 
 Prometheus Embedded Grafana:
 
 * [Grafana](http://grafana.org/) supports querying Prometheus. The Grafana data source for Prometheus is included since Grafana.
 * By Default, Grafana will be listening on "http://localhost:3000". The default login is "admin" / "admin".
 
-![prometheus-datasource](prometheus-datasource.png)
+![prometheus-datasource](https://user-images.githubusercontent.com/69601938/90446926-3964e180-e0b0-11ea-90d9-a97be24ec491.png)
 
-![prometheus-graph](prometheus-graph.png)
+![prometheus-graph](https://user-images.githubusercontent.com/69601938/90446927-39fd7800-e0b0-11ea-838b-6fa276371235.png)
 
 * For more information on Grafana support for Prometheus see [this](https://prometheus.io/docs/visualization/grafana/).
 
 ## Exporter for Citrix ADC
 
-![exporter-adc](exporter-adc.png)
+![exporter-adc](https://user-images.githubusercontent.com/69601938/90446915-37028780-e0b0-11ea-89e2-dc3ab367f168.png)
 
 * The exporter is configured to export some of the most commonly used stats for a Citrix ADC device. They are mentioned in the metrics.json file and summarized in the table below.
 
-![stats-nitro](stats-nitro.png)
+![stats-nitro](https://user-images.githubusercontent.com/69601938/90446897-34079700-e0b0-11ea-899d-1c47f3109b03.png)
 
 For more information on the Exporter for Citrix ADC see [this](https://github.com/citrix/citrix-adc-metrics-exporter).
 
@@ -55,9 +55,9 @@ Using Kibana to view data:
 * Step 5: Visualize the data in a report of aggregations.
   * Result aggregation in a chart report (pie, graph, etc.)
 
-![kibana-dashboard](kibana-dashboard.png)
+![kibana-dashboard](https://user-images.githubusercontent.com/69601938/90446922-38cc4b00-e0b0-11ea-9c85-8a9eea2156fd.png)
 
-![kibana-http](kibana-http.png)
+![kibana-http](https://user-images.githubusercontent.com/69601938/90446924-3964e180-e0b0-11ea-9cb9-bc757218490e.png)
 
 ## Citrix Observability Exporter
 
@@ -65,7 +65,7 @@ Citrix Observability Exporter collects timeseries and transactional data from mu
 
 For more info on COE, see [this](https://github.com/citrix/citrix-observability-exporter).
 
-![data-endpoint](data-endpoint.png)
+![data-endpoint](https://user-images.githubusercontent.com/69601938/90446913-37028780-e0b0-11ea-803a-ab9395379aeb.png)
 
 COE supported event-based endpoint feeds (logs):
 
@@ -82,7 +82,7 @@ For more information on the Citrix Observability Exporter, see [this](https://gi
 
 Architecture:
 
-![coe-architecture](coe-architecture.png)
+![coe-architecture](https://user-images.githubusercontent.com/69601938/90446909-37028780-e0b0-11ea-895f-2d289bac1770.png)
 
 Performance & Limitations:
 
@@ -100,15 +100,15 @@ Citrix Service Graph Applications:
 
 Global Service Graph:
 
-![global-server-graph](global-server-graph.png)
+![global-server-graph](https://user-images.githubusercontent.com/69601938/90446916-379b1e00-e0b0-11ea-8fde-da4ca18bad74.png)
 
 MicroService Graph:
 
-![microservice-graph](microservice-graph.png)
+![microservice-graph](https://user-images.githubusercontent.com/69601938/90446925-3964e180-e0b0-11ea-81a1-50f1f7ebe968.png)
 
 View discrete applications, this service graph displays the top 4 low scored discrete applications.
 
-![boxed-graph](boxed-graph.png)
+![boxed-graph](https://user-images.githubusercontent.com/69601938/90446908-3669f100-e0b0-11ea-9ea3-600df2026505.png)
 
 * Ensure end-to-end application overall performance
 * Identify bottlenecks created by inter-dependency of different components of your applications
@@ -119,13 +119,13 @@ View discrete applications, this service graph displays the top 4 low scored dis
 * View detailed visibility of service HTTP transactions.
 * Analyze the HTTP, TCP, and SSL metrics.
 
-![app-info](app-info.png)
+![app-info](https://user-images.githubusercontent.com/69601938/90446904-35d15a80-e0b0-11ea-8d93-e05474dd9f9f.png)
 
 ## Service – Summary Metrics in Service Graph
 
 ### HTTP Metrics
 
-![http-casio](http-casio.png)
+![http-casio](https://user-images.githubusercontent.com/69601938/90446920-3833b480-e0b0-11ea-8cdc-437d9c1cdc4a.png)
 
 * Hits – Indicates the total number of hits received by the service.
 * Service Response Time – Indicates the average response time taken from the service to respond for Time To First Byte (TTFB).
@@ -134,7 +134,7 @@ View discrete applications, this service graph displays the top 4 low scored dis
 
 ### SSL Metrics
 
-![http-tea](http-tea.png)
+![http-tea](https://user-images.githubusercontent.com/69601938/90446921-3833b480-e0b0-11ea-9357-51e3dd90cce8.png)
 
 * **SSL Server Errors** – Indicates the total SSL errors from the server. (ex: SSL certificate unknown)
 * **SSL Protocol** – Indicates the SSL protocol version used by the service.
@@ -143,7 +143,7 @@ View discrete applications, this service graph displays the top 4 low scored dis
 
 ### TCP Metrics
 
-![tcp-pods](tcp-pods.png)
+![tcp-pods](https://user-images.githubusercontent.com/69601938/90446898-34a02d80-e0b0-11ea-897b-371cf7b17425.png)
 
 * TCP connections – Total connections established between the services.
 * Data Volume – Total data processed by the service.
@@ -151,19 +151,19 @@ View discrete applications, this service graph displays the top 4 low scored dis
 
 Service Graph Summary:
 
-![service-graph-summary](service-graph-summary.png)
+![service-graph-summary](https://user-images.githubusercontent.com/69601938/90446928-39fd7800-e0b0-11ea-8a03-8f4bd501ecb6.png)
 
 Service Graph Distributed Tracing:
 
-![service-graph-tracing](service-graph-tracing.png)
+![service-graph-tracing](https://user-images.githubusercontent.com/69601938/90446930-39fd7800-e0b0-11ea-9e4c-4c05efe5d87f.png)
 
 Service Details:
 
-![amazon-details](amazon-details.png)
+![amazon-details](https://user-images.githubusercontent.com/69601938/90446903-35d15a80-e0b0-11ea-9e59-25e142c237dc.png)
 
-![hits-errors](hits-errors.png)
+![hits-errors](https://user-images.githubusercontent.com/69601938/90446919-3833b480-e0b0-11ea-8194-bc6ece978c55.png)
 
-![volume-response](volume-response.png)
+![volume-response](https://user-images.githubusercontent.com/69601938/90446902-3538c400-e0b0-11ea-9b64-aea7fbf4dec1.png)
 
 ## NSTRACE Commands
 
@@ -208,7 +208,7 @@ By default, the ADC uses the nstrace script and outputs to /var/nstrace – eith
         nstrace1.cap
         root@cpx-ingress1-678bd844c7-bmnp5:/cpx/nstrace/28Jul2020_16_01_18#
 
-![tcp-wireshark](tcp-wireshark.png)
+![tcp-wireshark](https://user-images.githubusercontent.com/69601938/90446900-3538c400-e0b0-11ea-8732-bec2fca51309.png)
 
 CPX NSTRACE Steps
 
@@ -259,4 +259,4 @@ Nstcpdump can be used for more low-level troubleshooting. Nstcpdump does not col
 Example:
 > root@cpx-ingress1-678bd844c7-bmnp5:/cpx/nstrace# nstcpdump.sh -n src 10.10.0.132
 
-![cpx-nstrace](cpx-nstrace.png)
+![cpx-nstrace](https://user-images.githubusercontent.com/69601938/90446912-37028780-e0b0-11ea-80d3-7620d7cf0b32.png)
