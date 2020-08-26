@@ -21,7 +21,7 @@ Prometheus Embedded Grafana:
 
 * The exporter is configured to export some of the most commonly used stats for a Citrix ADC device. They are mentioned in the metrics.json file and summarized in the table below.
 
-![stats-nitro](https://user-images.githubusercontent.com/69601938/90446897-34079700-e0b0-11ea-899d-1c47f3109b03.png)
+![stats-nitro-resize](https://github.com/citrix/microapp-application-troubleshooting/blob/master/Images/stats-nitro-resize.png.png)
 
 For more information on the Exporter for Citrix ADC see [this](https://github.com/citrix/citrix-adc-metrics-exporter).
 
