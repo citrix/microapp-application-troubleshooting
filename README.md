@@ -2,7 +2,7 @@
 
 Architecture flexibility, so you can move to Cloud Native at your own pace.
 
-![architecture-graph](https://user-images.githubusercontent.com/69601938/90446906-3669f100-e0b0-11ea-9305-181b0008ac55.png)
+![architecture-graph](architecture-graph.png)
 
 Prometheus Embedded Grafana:
 
