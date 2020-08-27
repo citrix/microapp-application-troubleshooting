@@ -134,7 +134,7 @@ View discrete applications, this service graph displays the top 4 low scored dis
 
 ### SSL Metrics
 
-![http-tea](https://user-images.githubusercontent.com/69601938/91501723-4b0a6e00-e894-11ea-9bdc-fa7a3dcddae0.png)
+![http-tea](https://user-images.githubusercontent.com/69601938/91502093-3e3a4a00-e895-11ea-8541-00b9456eedf7.png)
 
 * **SSL Server Errors** – Indicates the total SSL errors from the server. (ex: SSL certificate unknown)
 * **SSL Protocol** – Indicates the SSL protocol version used by the service.
@@ -143,7 +143,7 @@ View discrete applications, this service graph displays the top 4 low scored dis
 
 ### TCP Metrics
 
-![tcp-pods](https://user-images.githubusercontent.com/69601938/91501724-4b0a6e00-e894-11ea-8c81-76bd72230130.png)
+![tcp-pods](https://user-images.githubusercontent.com/69601938/91502090-3da1b380-e895-11ea-87e8-e08b12d5653d.png)
 
 * TCP connections – Total connections established between the services.
 * Data Volume – Total data processed by the service.
