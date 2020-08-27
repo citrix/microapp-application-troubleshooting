@@ -65,7 +65,7 @@ Citrix Observability Exporter collects timeseries and transactional data from mu
 
 For more info on COE, see [this](https://github.com/citrix/citrix-observability-exporter).
 
-![data-endpoint](https://user-images.githubusercontent.com/69601938/90446913-37028780-e0b0-11ea-803a-ab9395379aeb.png)
+![data-endpoint](https://user-images.githubusercontent.com/69601938/91501725-4ba30480-e894-11ea-99a8-768d4524ac18.png)
 
 COE supported event-based endpoint feeds (logs):
 
@@ -100,7 +100,7 @@ Citrix Service Graph Applications:
 
 Global Service Graph:
 
-![global-server-graph](https://user-images.githubusercontent.com/69601938/90446916-379b1e00-e0b0-11ea-8fde-da4ca18bad74.png)
+![global-server-graph](https://user-images.githubusercontent.com/69601938/91501726-4ba30480-e894-11ea-9836-9a310374b239.png)
 
 MicroService Graph:
 
@@ -125,7 +125,7 @@ View discrete applications, this service graph displays the top 4 low scored dis
 
 ### HTTP Metrics
 
-![http-casio](https://user-images.githubusercontent.com/69601938/90446920-3833b480-e0b0-11ea-8cdc-437d9c1cdc4a.png)
+![http-casio](https://user-images.githubusercontent.com/69601938/91501722-4a71d780-e894-11ea-8e9f-96c601081ae3.png)
 
 * Hits – Indicates the total number of hits received by the service.
 * Service Response Time – Indicates the average response time taken from the service to respond for Time To First Byte (TTFB).
@@ -134,7 +134,7 @@ View discrete applications, this service graph displays the top 4 low scored dis
 
 ### SSL Metrics
 
-![http-tea](https://user-images.githubusercontent.com/69601938/90446921-3833b480-e0b0-11ea-9357-51e3dd90cce8.png)
+![http-tea](https://user-images.githubusercontent.com/69601938/91501723-4b0a6e00-e894-11ea-9bdc-fa7a3dcddae0.png)
 
 * **SSL Server Errors** – Indicates the total SSL errors from the server. (ex: SSL certificate unknown)
 * **SSL Protocol** – Indicates the SSL protocol version used by the service.
@@ -143,7 +143,7 @@ View discrete applications, this service graph displays the top 4 low scored dis
 
 ### TCP Metrics
 
-![tcp-pods](https://user-images.githubusercontent.com/69601938/90446898-34a02d80-e0b0-11ea-897b-371cf7b17425.png)
+![tcp-pods](https://user-images.githubusercontent.com/69601938/91501724-4b0a6e00-e894-11ea-8c81-76bd72230130.png)
 
 * TCP connections – Total connections established between the services.
 * Data Volume – Total data processed by the service.
