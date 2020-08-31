@@ -193,7 +193,7 @@ By default, the ADC uses the nstrace script and outputs to /var/nstrace – eith
   * Example: Start a new trace every 30 seconds and create no more than 50 files before starting to overwrite the files.
   * >start nstrace -size 0 -mode sslplain -filter “CONNECTION.DSTIP.EQ(10.1.1.13) || CONNECTION.SRCIP.EQ(192.168.1.118)” -nf 50 -time 30
 
-### CPX NSTRAC Commands – Shows Underlay
+### CPX NSTRACE Commands – Shows Underlay
 
         root@cpx-ingress1-678bd844c7-bmnp5:/cpx/nstrace# cli_script.sh ‘start nstrace -mode RX NEW_RX TX TXB -size 0’
         exec: start nstrace -mode RX NEW_RX TX TXB -size 0
